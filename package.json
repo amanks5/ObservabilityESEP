@@ -1,0 +1,29 @@
+{
+  "name": "observabilityesep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanks5/ObservabilityESEP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanks5/ObservabilityESEP/issues"
+  },
+  "homepage": "https://github.com/amanks5/ObservabilityESEP#readme",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/instrumentation-http": "^0.56.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.50.0",
+    "@opentelemetry/sdk-trace-node": "^1.29.0",
+    "express": "^4.21.2",
+    "mongodb": "^4.3.1",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
